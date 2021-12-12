@@ -1,0 +1,60 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: sans-serif;
+     background-color: #f6f6f6;
+}
+
+button{
+     cursor: pointer;
+     padding: 5px 20px;
+     font-size: 16px;
+     outline: none;
+     border: none;
+     border-radius: 8px;
+}
+
+
+.container{
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     justify-content: center;
+     align-items: center;
+}
+
+.input{
+     outline: none;
+     padding: 8px;
+     border-radius: 8px;
+     width: 30%;
+     border: 1px solid cyan;
+     color: #333;
+     margin-right: 20px;
+}
+.group{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.member{
+     color: cyan;
+}
+.save-btn{
+     color: #333;
+     background-color: cyan;
+}
+.random{
+     background-color: #333;
+     color: #fff;
+}
+
+@media (max-width: 900px){
+     .input{
+          width: 60%;
+     }
+}
